@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding:0%;
+}
+
+
+body{
+    
+ /* background-image: linear-gradient(to right,#f492f0,#a18dce); */
+ background-image: linear-gradient(to right , #f6d5f7,#fbe9d7);
+}
+#heading{
+    color: rgb(114, 7, 84);
+    letter-spacing: 2vh;
+    flex-direction: row;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+}
+#main-div{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    gap: 5vh;
+    flex-wrap: wrap;
+    margin-top: 30vh;
+}
+#time-div{
+    display: flex;
+    background-color: rgb(91, 66, 99);
+    justify-content: center;
+    align-items: center;
+    height:15vh;
+    width:35vh;
+    gap:2vh;
+    color:beige;
+    border-radius: 2vh;
+    box-shadow:1em 0.9em 2em rgba(80, 56, 88, 0.74);
+    letter-spacing: 1vh;
+    font-size: 3vh;
+}
+#btn-div{
+    /* height:5vh;
+    width:30vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    margin-top: 1vh;
+    gap:2vh;
+    
+}
+
+img{
+    height:6vh;
+    width :6vh;
+}
+#stop-btn{
+    width:8vh;
+    height:6vh;
+    border-radius: 75%;
+}
+#reset-btn{
+    width:2vh;
+    height:3vh;
+}
+@keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+  
+  #heading {
+    animation: bounce 3s ease-in infinite alternate both;
+  }
+ /* Define the keyframes for the wavy effect */
+@keyframes waveBounce {
+    0%, 100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-15px); /* Adjust bounce height */
+    }
+  }
+  
+  /* Styling the container */
+  #heading-div {
+    display: flex;
+    gap: 2vh; /* Space between letters */
+    font-size: 2rem;
+    font-weight: bold;
+    flex-direction: row;
+  }
+  
+  /* Styling and animating each element */
+  #heading {
+    display: inline-block;
+    flex-direction: row;
+    animation: waveBounce 4s ease-in infinite;
+  }
+  
+  /* Add delay to create the wavy effect */
+  #heading:nth-child(1) {
+    animation-delay: 0s;
+  }
+  #heading:nth-child(9) {
+    animation-delay: 0s;
+  }
+  #heading:nth-child(2) {
+    animation-delay: 0.4s;
+  }
+  #heading:nth-child(8) {
+    animation-delay: 0.4s;
+  }
+  #heading:nth-child(3) {
+    animation-delay: 0.8s;
+  }
+  #heading:nth-child(7) {
+    animation-delay: 0.8s;
+  }
+  #heading:nth-child(4) {
+    animation-delay: 1.2s;
+  }
+  #heading:nth-child(6) {
+    animation-delay: 1.2s;
+  }
+  #heading:nth-child(5) {
+    animation-delay: 1.6s;
+  }
+  
+
+  
